@@ -1,0 +1,53 @@
+.navbar {
+  border: 1px solid black;
+  width: 240px;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-left: 15px;
+  height: 56px;
+}
+.menu-icon {
+  height: 25px;
+  width: 25px;
+}
+.youtube-icon {
+  height: 38px;
+  width: 105px;
+}
+
+.top-section {
+  width: 100%;
+  padding: 12px;
+}
+.top-section-item {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  cursor: pointer;
+  transition: var(--smooth);
+}
+.top-section-item:hover {
+  background-color: rgba(128, 128, 128, 0.836);
+  border-radius: 10px;
+  transition: var(--smooth);
+}
+
+.top-section-item svg {
+  width: 24px;
+  height: 24px;
+}
+.top-section-item span {
+  padding-left: 1.5rem;
+}
+.separate-line {
+  height: 1px;
+  width: 216px;
+  margin: 15px 12px;
+  background-color: gray;
+}
