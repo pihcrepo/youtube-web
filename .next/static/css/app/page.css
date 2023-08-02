@@ -1,0 +1,199 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./css/overlay.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+.overlay {
+  position: fixed;
+  background-color: #00000080;
+
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  z-index: 3;
+  opacity: 0.5;
+}
+.show-overlay {
+  display: block;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./css/header.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+.header {
+  padding: 0 16px;
+  height: 56px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+
+  border-bottom: 1px solid black;
+}
+
+.left-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.menu-icon {
+  height: 25px;
+  width: 25px;
+}
+.youtube-icon {
+  height: 35px;
+  width: 90px;
+}
+
+.mid-header {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.search-input {
+  padding-left: 16px;
+  width: 35vw;
+  height: 100%;
+  border-radius: 40px 0 0 40px;
+  border: 1px solid black;
+  border-color: black;
+  background-color: white;
+  font-size: 1rem;
+}
+.search-input:focus {
+  border-color: blue;
+}
+.search-icon-wrapper {
+  height: 40px;
+  width: 64px;
+  border: 1px solid black;
+  border-radius: 0 40px 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-icon,
+.search-micro-icon {
+  width: 25px;
+  height: 25px;
+}
+.search-micro-icon {
+  margin-left: 18px;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.avatar {
+  width: 32px;
+  height: 32px;
+}
+.bell,
+.camera {
+  width: 24px;
+  height: 24px;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./css/navbar.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+.navbar {
+  border: 1px solid black;
+  width: 240px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateX(-100%);
+  transition: var(--smooth);
+  z-index: 5;
+}
+.show-navbar {
+  transform: translateX(0);
+}
+.navbar-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-left: 16px;
+  height: 56px;
+}
+.menu-icon {
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+}
+.youtube-icon {
+  height: 38px;
+  width: 105px;
+}
+.menu-icon svg,
+.item svg,
+.item .sub-avatar,
+.more-icon {
+  height: 24px;
+  width: 24px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 12px;
+  border-bottom: 1px solid gray;
+}
+.container-title {
+  height: 30px;
+  padding-left: 12px;
+  display: flex;
+  align-items: center;
+}
+.item {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding-left: 12px;
+  cursor: pointer;
+  transition: var(--smooth);
+}
+.item:hover {
+  background-color: #ece7df;
+  border-radius: 10px;
+  transition: var(--smooth);
+}
+.item span {
+  padding-left: 1.5rem;
+  font-size: 14px;
+}
+.library {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid gray;
+}
+.youtube-kids {
+  transform: rotate(-15deg);
+  height: 20px;
+  width: 20px;
+}
+.navfooter a {
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+  line-height: 0.5rem;
+  margin-right: 8px;
+}
+.navfooter-section {
+  padding: 16px 0px 0px 24px;
+}
+.navfooter-midsection {
+  padding: 12px 0px 0px 24px;
+}
+.navfooter-bottom {
+  color: #a1998c;
+  font-size: 12px;
+  padding: 16px 24px;
+}
+

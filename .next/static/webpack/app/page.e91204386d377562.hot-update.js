@@ -1,0 +1,32 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/page",{
+
+/***/ "(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2Fhome%2Fanhnt5%2Fwork%2Fproject%2Fyoutube%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js&modules=%2Fhome%2Fanhnt5%2Fwork%2Fproject%2Fyoutube%2Fimg%2Fyoutube.png&modules=%2Fhome%2Fanhnt5%2Fwork%2Fproject%2Fyoutube%2Fimg%2Favatar.png&modules=%2Fhome%2Fanhnt5%2Fwork%2Fproject%2Fyoutube%2Fcss%2Fnavbar.css&server=false!":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2Fhome%2Fanhnt5%2Fwork%2Fproject%2Fyoutube%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js&modules=%2Fhome%2Fanhnt5%2Fwork%2Fproject%2Fyoutube%2Fimg%2Fyoutube.png&modules=%2Fhome%2Fanhnt5%2Fwork%2Fproject%2Fyoutube%2Fimg%2Favatar.png&modules=%2Fhome%2Fanhnt5%2Fwork%2Fproject%2Fyoutube%2Fcss%2Fnavbar.css&server=false! ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/image-component.js */ \"(app-pages-browser)/./node_modules/next/dist/client/image-component.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./img/youtube.png */ \"(app-pages-browser)/./img/youtube.png\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./img/avatar.png */ \"(app-pages-browser)/./img/avatar.png\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./css/navbar.css */ \"(app-pages-browser)/./css/navbar.css\"))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvYnVpbGQvd2VicGFjay9sb2FkZXJzL25leHQtZmxpZ2h0LWNsaWVudC1lbnRyeS1sb2FkZXIuanM/bW9kdWxlcz0lMkZob21lJTJGYW5obnQ1JTJGd29yayUyRnByb2plY3QlMkZ5b3V0dWJlJTJGbm9kZV9tb2R1bGVzJTJGbmV4dCUyRmRpc3QlMkZjbGllbnQlMkZpbWFnZS1jb21wb25lbnQuanMmbW9kdWxlcz0lMkZob21lJTJGYW5obnQ1JTJGd29yayUyRnByb2plY3QlMkZ5b3V0dWJlJTJGaW1nJTJGeW91dHViZS5wbmcmbW9kdWxlcz0lMkZob21lJTJGYW5obnQ1JTJGd29yayUyRnByb2plY3QlMkZ5b3V0dWJlJTJGaW1nJTJGYXZhdGFyLnBuZyZtb2R1bGVzPSUyRmhvbWUlMkZhbmhudDUlMkZ3b3JrJTJGcHJvamVjdCUyRnlvdXR1YmUlMkZjc3MlMkZuYXZiYXIuY3NzJnNlcnZlcj1mYWxzZSEiLCJtYXBwaW5ncyI6IkFBQUEsb09BQXVIO0FBQ3ZILDRKQUFzRjtBQUN0RiwwSkFBcUY7QUFDckYiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLz80OTlkIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL2hvbWUvYW5obnQ1L3dvcmsvcHJvamVjdC95b3V0dWJlL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvY2xpZW50L2ltYWdlLWNvbXBvbmVudC5qc1wiKTtcbmltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL2hvbWUvYW5obnQ1L3dvcmsvcHJvamVjdC95b3V0dWJlL2ltZy95b3V0dWJlLnBuZ1wiKTtcbmltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL2hvbWUvYW5obnQ1L3dvcmsvcHJvamVjdC95b3V0dWJlL2ltZy9hdmF0YXIucG5nXCIpO1xuaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvaG9tZS9hbmhudDUvd29yay9wcm9qZWN0L3lvdXR1YmUvY3NzL25hdmJhci5jc3NcIikiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2Fhome%2Fanhnt5%2Fwork%2Fproject%2Fyoutube%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js&modules=%2Fhome%2Fanhnt5%2Fwork%2Fproject%2Fyoutube%2Fimg%2Fyoutube.png&modules=%2Fhome%2Fanhnt5%2Fwork%2Fproject%2Fyoutube%2Fimg%2Favatar.png&modules=%2Fhome%2Fanhnt5%2Fwork%2Fproject%2Fyoutube%2Fcss%2Fnavbar.css&server=false!\n"));
+
+/***/ }),
+
+/***/ "(app-pages-browser)/./img/avatar.png":
+/*!************************!*\
+  !*** ./img/avatar.png ***!
+  \************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\"src\":\"/_next/static/media/avatar.9b9538ae.png\",\"height\":1000,\"width\":1000,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.9b9538ae.png&w=8&q=70\",\"blurWidth\":8,\"blurHeight\":8});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL2ltZy9hdmF0YXIucG5nIiwibWFwcGluZ3MiOiI7QUFBQSwrREFBZSxDQUFDLGtNQUFrTSIsInNvdXJjZXMiOlsid2VicGFjazovL19OX0UvLi9pbWcvYXZhdGFyLnBuZz8xYWIzIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IHtcInNyY1wiOlwiL19uZXh0L3N0YXRpYy9tZWRpYS9hdmF0YXIuOWI5NTM4YWUucG5nXCIsXCJoZWlnaHRcIjoxMDAwLFwid2lkdGhcIjoxMDAwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRmF2YXRhci45Yjk1MzhhZS5wbmcmdz04JnE9NzBcIixcImJsdXJXaWR0aFwiOjgsXCJibHVySGVpZ2h0XCI6OH07Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(app-pages-browser)/./img/avatar.png\n"));
+
+/***/ })
+
+});
