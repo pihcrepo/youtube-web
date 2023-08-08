@@ -58,7 +58,8 @@ export default function SuggestionBar() {
   };
 
   const cssContainer =
-    'flex w-[93%] h-14 bg-black fixed top-0 right-0 justify-between mt-14 overflow-hidden';
+    `flex w-[93%] h-14 bg-black fixed top-0 right-0
+     justify-between mt-14 overflow-hidden`;
   const cssBtn = 'bg-transparent border-none cursor-pointer text-2xl';
   const cssSuggestList =
     'flex gap-6 w-4/5 items-center overflow-auto border-black';
