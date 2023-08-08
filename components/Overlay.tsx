@@ -1,12 +1,18 @@
 import React from 'react';
-import 'css/overlay.css';
 
-export default function Overlay({ isShowOverlay, showNavbar }: {isShowOverlay: boolean, showNavbar: any}) {
+type Props = {
+  isShowOverlay: boolean;
+  menuClick: any;
+};
+
+export default function Overlay({ isShowOverlay, menuClick }: Props) {
   return (
     <div
-      className={'overlay ' + (isShowOverlay ? 'show-overlay' : '')}
-      onClick={showNavbar}
-    >
-    </div>
+      className={
+        'fixed bg-[#00000080] w-screen h-screen z-30 opacity-50' +
+        (isShowOverlay ? ' block' : ' hidden')
+      }
+      onClick={menuClick}
+    ></div>
   );
 }

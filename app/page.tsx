@@ -1,21 +1,29 @@
 'use client';
 import Overlay from '@/components/Overlay';
-import Header from '@/components/header/Header';
-import Navbar from '@/components/navbar/Navbar';
+import Container from '@/components/container';
+import Header from '@/components/header';
+import Navbar from '@/components/navbar';
 import { useState } from 'react';
+
+import Image from 'next/image';
 
 export default function Home() {
   const [isShowNavbar, setIsShowNavbar] = useState(false);
   const [isShowOverlay, setIsShowOverlay] = useState(false);
-  function showNavbar() {
+  const [isShowMoreLeftContainer, setIsShowMoreLeftContainer] = useState(false);
+  function menuClick() {
     setIsShowNavbar(!isShowNavbar);
     setIsShowOverlay(!isShowOverlay);
+    setIsShowMoreLeftContainer(!isShowMoreLeftContainer);
+
+    console.log('test');
   }
   return (
     <div>
-      <Overlay isShowOverlay={isShowOverlay} showNavbar={showNavbar} />
-      <Header showNavbar={showNavbar} />
-      <Navbar isShowNavbar={isShowNavbar} />
+      <Overlay isShowOverlay={isShowOverlay} menuClick={menuClick} />
+      <Header menuClick={menuClick} />
+      <Navbar isShowNavbar={isShowNavbar} menuClick={menuClick} />
+      <Container isShowMoreLeftContainer={isShowMoreLeftContainer} />
     </div>
   );
 }
