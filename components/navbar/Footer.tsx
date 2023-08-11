@@ -3,7 +3,7 @@ import React from 'react';
 export default function Footer() {
   return (
     <div className="text-[13px]">
-      <div className="pt-4 pr-0 pb-0 pl-6">
+      <div className="flex flex-wrap gap-1 w-4/5 pt-4 pr-0 pb-0 pl-6">
         <a href="">About</a>
         <a href="">Press</a>
         <a href="">Copyright</a> <br />
@@ -12,7 +12,7 @@ export default function Footer() {
         <a href="">Advertise</a>
         <a href="">Developers</a>
       </div>
-      <div className="pt-3 pr-0 pb-0 pl-6">
+      <div className="flex flex-wrap gap-1 pt-3 pr-0 pb-0 pl-6">
         <a href="">Terms</a>
         <a href="">Privacy</a>
         <a href="">Policy & Safety</a> <br />

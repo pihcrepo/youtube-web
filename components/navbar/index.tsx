@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Header from './Header';
-import HomeShorts from './HomeShorts';
+import Home from './Home';
 import Subscriptions from './Subscriptions';
 import Explore from './Explore';
 import More from './More';
@@ -25,7 +25,7 @@ export default function Navbar({ isShowNavbar, menuClick }: Props) {
     >
       <Header showNavbar={menuClick} />
       <div className="mt-14 overflow-auto">
-        <HomeShorts />
+        <Home />
         <Subscriptions />
         <Explore />
         <More />

@@ -21,9 +21,12 @@ export default function Home() {
     <div>
       <Overlay isShowOverlay={isShowOverlay} menuClick={menuClick} />
       <Header menuClick={menuClick} />
-      <LeftMenu showMore={isShowMoreLeftMenu}/>
       <Navbar isShowNavbar={isShowNavbar} menuClick={menuClick} />
-      <Container />
+
+      <div className="flex h-[calc(100vh-56px)]">
+        <LeftMenu showMore={isShowMoreLeftMenu} />
+        <Container />
+      </div>
     </div>
   );
 }

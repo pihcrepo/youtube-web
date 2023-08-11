@@ -9,8 +9,9 @@ export default function Overlay({ isShowOverlay, menuClick }: Props) {
   return (
     <div
       className={
-        'fixed bg-[#00000080] w-screen h-screen z-30 opacity-50' +
-        (isShowOverlay ? ' block' : ' hidden')
+        isShowOverlay
+          ? 'md:fixed md:bg-[#00000080] md:w-screen md:h-screen md:opacity-50 md:z-30'
+          : ' md:hidden '
       }
       onClick={menuClick}
     ></div>

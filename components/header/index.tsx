@@ -11,7 +11,7 @@ type Props = {
 
 export default function Header({ menuClick }: Props) {
   return (
-    <div className="flex justify-between items-center w-screen h-14 px-4 fixed top-0 left-0 z-30 border border-b-black">
+    <div className="flex justify-between items-center w-screen h-14 px-4 z-50 border-b">
       <Left menuClick={menuClick} />
       <Mid />
       <Right />
